@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position:relative;
+}
+
+header h1 {
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(front\ drone\ image1.jpg);
+    /*Replace with the actual path to your image*/
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+H2 {
+    color: whitesmoke;
+}
+
+p {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;   
+}
+
+.background-image {
+    background-image: url(front\ drone\ image3.jpg);
+    background-size: cover;
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1.5);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2807bd;
+    color: #fff
+}
+
+.button:hover {
+    background: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.111px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.drone-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.drone {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background: #555;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.drone img {
+    max-width: 50%;
+    border-radius: 5px;
+    position: static;
+}
+
+.drone h3 {
+    margin: 10px 0;
+}
